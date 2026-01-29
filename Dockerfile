@@ -34,6 +34,6 @@ ENV VITE_ENV=$VITE_ENV
 # Build the application (Vite will use these env vars)
 RUN yarn build
 
-EXPOSE 80
+EXPOSE 4000
 
 CMD ["yarn", "preview"]
