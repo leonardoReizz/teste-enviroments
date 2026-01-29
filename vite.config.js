@@ -10,6 +10,6 @@ export default defineConfig({
   preview: {
     port: 4000,
     host: "0.0.0.0",
-    allowedHosts: ["cmky8bfih000052f54vu-tnnb02.sysko.io", "app.sysko.io"],
+    allowedHosts: ["cmky8bfih000052f54vu-8rnkne.sysko.io", "app.sysko.io", "*"],
   }
 })
